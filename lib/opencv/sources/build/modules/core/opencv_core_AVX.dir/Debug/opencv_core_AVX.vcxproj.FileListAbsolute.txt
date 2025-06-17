@@ -1,0 +1,1 @@
+D:\Download\xe_tu_hanh\lib\opencv\sources\build\modules\core\opencv_core_AVX.dir\Debug\opencv_core_AVX.lib

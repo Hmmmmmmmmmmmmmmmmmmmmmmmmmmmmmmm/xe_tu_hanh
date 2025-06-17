@@ -1,0 +1,10 @@
+^D:\DOWNLOAD\XE_TU_HANH\LIB\OPENCV\SOURCES\BUILD\3RDPARTY\IPPICV\IPPICV_WIN\IW\CMAKELISTS.TXT
+setlocal
+D:\Download\CMake\bin\cmake.exe -SD:/Download/xe_tu_hanh/lib/opencv/sources -BD:/Download/xe_tu_hanh/lib/opencv/sources/build --check-stamp-file D:/Download/xe_tu_hanh/lib/opencv/sources/build/3rdparty/ippiw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
